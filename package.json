@@ -1,20 +1,21 @@
 {
-	"name": "datastar-test-tools",
-	"version": "1.0.0",
-	"description": "A toolkit for testing features of datastar",
-	"main": "lib",
-	"keywords": [
-		"datastar",
-		"cassandra",
-		"test",
-		"tools"
-	],
-	"devDependencies": {
-		"cassandra-driver": "^3.0.2",
-		"proxyquire": "^1.7.9",
-		"read-only-stream": "^2.0.0",
-		"through2": "^2.0.1"
-	},
-	"licenses": "MIT",
-	"author": "GoDaddy Engineers"
+  "name": "datastar-test-tools",
+  "version": "1.0.0",
+  "description": "A toolkit for testing features of datastar",
+  "main": "lib",
+  "keywords": [
+    "datastar",
+    "cassandra",
+    "test",
+    "tools"
+  ],
+  "licenses": "MIT",
+  "author": "GoDaddy Engineers",
+  "dependencies": {
+    "datastar": "~1.1.0",
+    "cassandra-driver": "^3.0.2",
+    "proxyquire": "^1.7.9",
+    "read-only-stream": "^2.0.0",
+    "through2": "^2.0.1"
+  }
 }
