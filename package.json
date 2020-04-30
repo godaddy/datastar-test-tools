@@ -16,6 +16,12 @@
     "datastar": "^1.7.0",
     "proxyquire": "^1.7.9",
     "read-only-stream": "^2.0.0",
-    "through2": "^2.0.1"
-  }
+    "through2": "^2.0.1",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
