@@ -13,7 +13,7 @@
   "author": "GoDaddy Engineers",
   "dependencies": {
     "cassandra-driver": "^4.1.0",
-    "datastar": "^1.7.0",
+    "datastar": "^4.0.0",
     "proxyquire": "^1.7.9",
     "read-only-stream": "^2.0.0",
     "through2": "^2.0.1"
